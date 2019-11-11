@@ -1,0 +1,19 @@
+{
+  "name": "facebook-lite",
+  "version": "1.0.0",
+  "description": "Facebook clone - lite for teaching react.js framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewYee92/facebook-lite.git"
+  },
+  "author": "Matthew Yee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewYee92/facebook-lite/issues"
+  },
+  "homepage": "https://github.com/MatthewYee92/facebook-lite#readme"
+}
