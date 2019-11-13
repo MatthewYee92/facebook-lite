@@ -9,10 +9,12 @@ export default class App extends Component {
   }
 
   signIn = (user,pass) => {
-    if(user === database[0].username && pass === database[0].password) {
+    if(user === database[0].username.toLowerCase() && pass === database[0].password) {
+      console.log(database[0].username.toLowerCase());
       // render newsfeed
-      console.log(timeLine)
+      console.log(timeLine);
     } else {
+      console.log(`Access denied.`)
       alert('Your username and or password is incorrect, please try again.');
     }
   }
